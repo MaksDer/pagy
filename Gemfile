@@ -4,7 +4,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # test
 gem 'rake'
-gem 'minitest', '~> 5.12'
+gem 'minitest'
 gem 'minitest-reporters'
 gem 'rack'
 gem 'i18n'
@@ -16,7 +16,14 @@ gem 'rubocop-performance', '~> 1.5.0'
 gem 'simplecov', require: false
 gem 'codecov', :require => false
 
-# development
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'capybara'
+gem 'selenium-webdriver'
+gem 'capybara-screenshot'
+gem 'puma'
+
+#
 # gem 'slim'
 # gem 'haml'
 
